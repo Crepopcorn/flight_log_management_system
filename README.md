@@ -83,7 +83,7 @@ Import the database.session.sql file located in the root directory into the data
 
 ##### 5) SQL Table Creation:
 
-Open the created database, execute the following MySQL commands:
+Use the created database, execute the following MySQL commands:
 ```
 USE {Database Name};
 
