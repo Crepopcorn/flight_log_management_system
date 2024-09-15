@@ -25,9 +25,9 @@ https://flight-log-app-73904c16f867.herokuapp.com/
 
 
 #### Login Page
-
+![login_page](https://github.com/Crepopcorn/sit_detection_project/blob/main/layout_image/loginpage.jpg)
 
 #### Flight Log Entry Form Page
-
+![table_page](https://github.com/Crepopcorn/sit_detection_project/blob/main/layout_image/tablepage.jpg)
 
 
