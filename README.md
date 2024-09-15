@@ -7,9 +7,9 @@ https://flight-log-app-73904c16f867.herokuapp.com/
 
 ### This web application is designed to meet all of the project's needs, both mandatory and optional requirements.
 
-#####Languages: PHP, HTML, CSS, and JavaScript
-#####Frameworks/Libraries:  jQuery
-#####Database: MySQL
+##### Languages: PHP, HTML, CSS, and JavaScript
+##### Frameworks/Libraries:  jQuery
+##### Database: MySQL
 
 Web Page Layout
 
