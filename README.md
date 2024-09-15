@@ -17,8 +17,6 @@ https://flight-log-app-73904c16f867.herokuapp.com/
 #### Libraries used: &ensp; jQuery
 #### Database used: &ensp; MySQL
 
-
-
 ---
 
 ## Web Page Layout
@@ -30,4 +28,31 @@ https://flight-log-app-73904c16f867.herokuapp.com/
 #### Flight Log Entry Form Page
 ![table_page](https://github.com/Crepopcorn/flight_log_management_system/blob/main/layout_image/tablepage.jpg)
 
+## Features
 
+#### User Management:
+
+- Register: New users can register for an account to access the system.
+- Login: Secure login system with hashed passwords for user authentication.
+- Forgot Password: Reset password functionality for users who have forgotten their credentials.
+- Logout: Users can securely log out of the system.
+- Delete Account: Users have the option to delete their accounts permanently.
+
+#### Flight Log Management:
+
+- View Flight Logs: Display all flight logs in a sortable table format.
+- Create Flight Log: Add new flight log entries with details such as Tail Number, Flight ID, Takeoff, Landing, and Duration.
+- Edit Flight Log: Modify existing flight log entries.
+- Delete Flight Log: Remove flight log entries from the system.
+- Search Flight Logs: Search for specific flight logs using Flight ID.
+
+#### Interactive User Interface:
+
+- Dynamic form submissions and updates using AJAX without refreshing the page.
+- Responsive design using HTML, CSS, and JavaScript for a seamless user experience.
+
+#### Security Features:
+
+- Password hashing for secure user authentication.
+- Input validation to prevent SQL injection and other vulnerabilities.
+- Session management to protect user sessions.
