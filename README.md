@@ -81,7 +81,31 @@ cd flight-log-management-system
 Create a MySQL database.
 Import the database.session.sql file located in the root directory into the database database.
 
-##### 5) Configure Database Connection:
+##### 5) SQL Query Table Creation:
+
+Open the created database, execute the following mySQL queies:
+```
+USE {Database Name};
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE flight_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tailNumber VARCHAR(50) NOT NULL,
+    flightID VARCHAR(50) NOT NULL,
+    takeoff DATETIME NOT NULL,
+    landing DATETIME NOT NULL,
+    duration TIME NOT NULL,
+    user_id INT,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+```
+
+##### 6) Configure Database Connection:
 
 Open config/db.php and and configure the database settings:
 
@@ -92,7 +116,7 @@ $password = "your_password";
 $dbname = "your_database";
 ```
 
-##### 6) Run the Application.
+##### 7) Run the Application.
 
 Start your web server and navigate to http://localhost/flight-log-management-system/index.php in your browser.
 
