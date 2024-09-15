@@ -11,8 +11,7 @@ https://flight-log-app-73904c16f867.herokuapp.com/
 #### Frameworks/Libraries used: &ensp; jQuery
 #### Database used: &emsp; MySQL
 
-
-
+-------------------------
 
 ## Web Page Layout
 
