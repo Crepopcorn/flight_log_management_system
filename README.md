@@ -87,8 +87,8 @@ Open config/db.php and and configure the database settings:
 ```
 $servername = "localhost";
 $username = "root";
-$password = "Mypwd_3016";
-$dbname = "flightall";
+$password = "your_password";
+$dbname = "your_database";
 ```
 
 5) Run the Application.
