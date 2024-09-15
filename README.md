@@ -13,7 +13,7 @@ https://flight-log-app-73904c16f867.herokuapp.com/
 
 ---
 
-#### Languages used: &ensp; PHP, HTML, CSS, and JavaScript
+#### Languages used: &ensp; PHP, HTML, CSS, JavaScript
 #### Libraries used: &ensp; jQuery
 #### Database used: &ensp; MySQL
 
