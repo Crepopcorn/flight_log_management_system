@@ -81,9 +81,9 @@ cd flight-log-management-system
 Create a MySQL database.
 Import the database.session.sql file located in the root directory into the database database.
 
-##### 5) SQL Query Table Creation:
+##### 5) SQL Table Creation:
 
-Open the created database, execute the following mySQL queies:
+Open the created database, execute the following MySQL commands:
 ```
 USE {Database Name};
 
