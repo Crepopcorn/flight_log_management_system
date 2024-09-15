@@ -62,26 +62,26 @@ Follow these steps to set up the project on your computer if you want to run in 
 - MySQL database server.
 - Composer (optional) for dependency management.
 
-Installation
-1) Clone the Repository:
+#### Installation
+##### 1) Clone the Repository:
 
 ```
 git clone https://github.com/yourusername/flight-log-management-system.git
 ```
 
-2) Navigate to the project directory:
+##### 2) Navigate to the project directory:
 
 ```
 cd flight-log-management-system
 ```
-3) Copy the project directory into the htdocs of your PHP support (e.g. C:\xampp\htdocs)
+##### 3) Copy the project directory into the htdocs of your PHP support (e.g. C:\xampp\htdocs)
 
-4) Set Up the Database:
+##### 4) Set Up the Database:
 
 Create a MySQL database.
 Import the database.session.sql file located in the root directory into the database database.
 
-5) Configure Database Connection:
+##### 5) Configure Database Connection:
 
 Open config/db.php and and configure the database settings:
 
@@ -92,7 +92,7 @@ $password = "your_password";
 $dbname = "your_database";
 ```
 
-6) Run the Application.
+##### 6) Run the Application.
 
 Start your web server and navigate to http://localhost/flight-log-management-system/index.php in your browser.
 
