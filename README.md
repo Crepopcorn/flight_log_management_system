@@ -74,13 +74,14 @@ git clone https://github.com/yourusername/flight-log-management-system.git
 ```
 cd flight-log-management-system
 ```
+3) Copy the project directory into the htdocs of PHP support (e.g. xampp/htdocs)
 
-3) Set Up the Database:
+4) Set Up the Database:
 
 Create a MySQL database.
 Import the database.session.sql file located in the root directory into the database database.
 
-4) Configure Database Connection:
+5) Configure Database Connection:
 
 Open config/db.php and and configure the database settings:
 
@@ -91,7 +92,7 @@ $password = "your_password";
 $dbname = "your_database";
 ```
 
-5) Run the Application.
+6) Run the Application.
 
 Start your web server and navigate to http://localhost/flight-log-management-system/index.php in your browser.
 
