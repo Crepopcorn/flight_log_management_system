@@ -6,7 +6,7 @@
 
 The Flight Log Management System is a web application that allows user to securely manage and store flight logs. 
 
-The project uses the MVC (Model-View-Controller) design to keep code organized. It supports user login, roles, and CRUD (Create, Read, Update, Delete) actions for managing flight logs. It is developed with PHP, MySQL, HTML, CSS, and jQuery, and it provides an easy-to-use interface and strong backend for handling flight log data.
+The project uses the MVC (Model-View-Controller) design to keep code organized. It supports user login, roles, and CRUD (Create, Read, Update, Delete) actions for managing flight logs. It is developed with PHP, MySQL, HTML, CSS, and javascript (jQuery), and it provides an easy-to-use interface and strong backend for handling flight log data.
 
 The deployed application can be found at heroku:<br />
 https://flight-log-app-73904c16f867.herokuapp.com/
