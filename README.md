@@ -55,7 +55,7 @@ https://flight-log-app-73904c16f867.herokuapp.com/
 
 ## Getting Started
 
-Follow these steps to set up the project on your computer for development and testing:
+Follow these steps to set up the project on your computer if you want to run in your local machine for development and testing:
 
 #### Prerequisites
 - Web server with PHP support (XAMPP/WAMP/MAMP).
