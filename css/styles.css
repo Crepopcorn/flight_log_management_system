@@ -1,0 +1,186 @@
+/* set general styles of webpage */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f4f4; /* set background properties */
+    background-image: url('../assets/bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    line-height: 1.6; 
+    min-height: 100vh; 
+    overflow-y: auto; 
+}
+
+/* container for table form webpage */
+.container {
+    max-width: 900px; 
+    margin: 40px auto; 
+    padding: 20px; 
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; /* add transitions for hover effects */
+}
+
+/* login page layout */
+.login-page {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+/* login container */
+.login-container {
+    max-width: 400px; 
+    width: 100%; 
+    padding: 20px; 
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+    margin: 20px; 
+}
+
+/* headings */
+h1 {
+    text-align: center; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+h2 {
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: #333; 
+    font-size: 26px; 
+    font-weight: bold; 
+}
+
+/* form inputs & buttons */
+input, button {
+    margin: 10px 0; 
+    padding: 12px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    border-radius: 5px; 
+    border: 1px solid #aaa; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+input:focus {
+    border-color: #888; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    outline: none; 
+}
+
+/* button states */
+button {
+    background-color: #ddd; 
+    color: #333; 
+    border: 1px solid #888; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+button:hover {
+    background-color: #ccc; 
+    transform: translateY(-2px); 
+}
+
+/* logout button */
+.logout-button {
+    background-color: #f44336; 
+    color: #fff; 
+    border: 1px solid #d32f2f; 
+}
+
+.logout-button:hover {
+    background-color: #e53935; 
+}
+
+/* tables used for display flight logs */
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 5px; 
+    border: 1px solid #aaa; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* table headers & cells */
+th, td {
+    padding: 15px; 
+    border: 1px solid #ddd; 
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+}
+
+th {
+    background-color: #ddd; 
+    color: #333; 
+    font-weight: bold; 
+}
+
+tr:hover {
+    background-color: #eee; 
+}
+
+/* edit & delete buttons */
+.editBtn, .deleteBtn {
+    background-color: #ddd; 
+    color: #333; 
+    border: 1px solid #888; 
+    padding: 10px 15px; 
+    margin: 0 5px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.editBtn:hover, .deleteBtn:hover {
+    background-color: #ccc; 
+    transform: translateY(-2px); 
+}
+
+/* links*/
+a {
+    color: blue; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #555; 
+    text-decoration: underline; 
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; 
+    }
+
+    .login-container {
+        max-width: 90%; 
+        padding: 10px; 
+    }
+
+    th, td {
+        padding: 10px; 
+        font-size: 14px; 
+    }
+
+    input, button {
+        font-size: 14px; 
+        padding: 10px; 
+    }
+}
