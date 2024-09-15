@@ -7,11 +7,13 @@ The Flight Log Management System is a web-based program that can manage and stor
 The deployed application can be found at heroku:
 https://flight-log-app-73904c16f867.herokuapp.com/
 
+------
+
 #### Languages used: &emsp; PHP, HTML, CSS, and JavaScript
 #### Frameworks/Libraries used: &ensp; jQuery
 #### Database used: &emsp; MySQL
 
--------------------------
+------
 
 ## Web Page Layout
 
