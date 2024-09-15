@@ -74,7 +74,7 @@ git clone https://github.com/yourusername/flight-log-management-system.git
 ```
 cd flight-log-management-system
 ```
-3) Copy the project directory into the htdocs of PHP support (e.g. xampp/htdocs)
+3) Copy the project directory into the htdocs of your PHP support (e.g. C:\xampp\htdocs)
 
 4) Set Up the Database:
 
