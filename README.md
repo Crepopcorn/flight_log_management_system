@@ -31,29 +31,24 @@ https://flight-log-app-73904c16f867.herokuapp.com/
 ## Features
 
 #### User Management:
-
-- Register: New users can register for new account to access the system.
-- Login: Secure login system with hashed passwords for user authentication.
-- Forgot Password: Reset password features for users who forgot their password.
-- Logout: Users can securely log out of the system.
-- Delete Account: Users have the option to delete their accounts permanently.
+- Register: New user signup.
+- Login: Secure login with hashes.
+- Forgot Password: Reset passwords.
+- Logout: Securely log out.
+- Delete Account: Permanent deletion.
 
 #### Flight Log Management:
+- View Logs: Sortable table display.
+- Create Log: Add flight entries.
+- Edit Log: Modify flight entries.
+- Delete Log: Remove entries.
+- Search Logs: Search by Flight ID.
 
-- View Flight Logs: Display all flight logs in sortable table format.
-- Create Flight Log: Add new flight log entries with details.
-- Edit Flight Log: Modify existing flight log entries.
-- Delete Flight Log: Remove flight log entries from the system.
-- Search Flight Logs: Using Flight ID to search for specific flight logs.
-
-#### Interactive User Interface:
-
-- Dynamic form submissions and updates using AJAX without refreshing the page.
-- Responsive design using HTML, CSS, and JavaScript for a seamless user experience.
+#### Interactive UI:
+- AJAX: Dynamic form updates.
+- Responsive: HTML/CSS/JS design.
 
 #### Security Features:
-
-- Password hashing to ensure safe user authentication.
-- Input validation to protect against SQL injection and other issues.
-- Session management protects user sessions.
-
+- Hashing: Secure passwords.
+- Validation: Prevent SQL injection.
+- Sessions: Manage user sessions.
