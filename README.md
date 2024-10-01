@@ -78,8 +78,7 @@ cd flight-log-management-system
 
 ##### 4) Set Up the Database:
 
-Create a MySQL database.
-Import the database.session.sql file located in the root directory into the database database.
+Create a MySQL database in your local machine, and modify the code in config/db.php based on the database you are using.
 
 ##### 5) SQL Table Creation:
 
